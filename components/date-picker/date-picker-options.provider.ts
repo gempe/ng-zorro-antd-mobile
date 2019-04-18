@@ -28,8 +28,8 @@ export class DatePickerOptions implements DatePickerOptionsInterface {
   data = [];
   mask: boolean = true;
   title = '';
-  okText = '确定';
-  dismissText = '取消';
+  okText = 'Ok';
+  dismissText = 'Cancelar';
   disabled = false;
   locale;
   appendToBody = false;

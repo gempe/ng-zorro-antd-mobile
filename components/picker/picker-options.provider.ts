@@ -17,8 +17,8 @@ export class PickerOptions implements PickerOptionsInterface {
   cols?: number = 3;
   mask?: boolean = true;
   title?: string = '';
-  okText?: string = '确定';
-  dismissText?: string = '取消';
+  okText?: string = 'Ok';
+  dismissText?: string = 'Cancelar';
   disabled?: boolean = false;
   cascade?: boolean = true;
   appendToBody?: boolean = false;
